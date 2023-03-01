@@ -1,7 +1,13 @@
 package apipassenger.service;
 
+import apipassenger.service.impl.ServiceVerificationcodeClient;
+import dto.ResponseResult;
 import net.sf.json.JSONObject;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
+import responese.Numbercoderesponse;
+
 
 /**
  * @ Auther: yk
@@ -14,10 +20,17 @@ import org.springframework.stereotype.Service;
 @Service
 public class verificationcode {
 
+    @Autowired
+    private ServiceVerificationcodeClient serviceVerificationcodeClient;
     public String verificationcode(String passengerphone){
         //调用验证码服务获取验证码
         System.out.println("调用验证码，获取验证码");
-        String code ="1111";
+        ResponseResult<Numbercoderesponse> numcode = serviceVerificationcodeClient.getnumbercode(6);
+        int num = numcode.getData().getNumbercode();
+        System.out.println("验证码："+num);
+
+
+
         //存入redis
         System.out.println("存入redis");
 

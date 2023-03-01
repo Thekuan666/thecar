@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12109e39-533c-4d89-9188-e00afaad92d6" name="Default Changelist" comment="" />
+    <list default="true" id="12109e39-533c-4d89-9188-e00afaad92d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-passenger/src/main/java/apipassenger/service/impl/ServiceVerificationcodeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal-common/src/main/java/responese/Numbercoderesponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/apipassenger/apipassengerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/apipassenger/apipassengerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/apipassenger/controller/VerificationCodecontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/apipassenger/controller/VerificationCodecontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/src/main/java/apipassenger/service/verificationcode.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/src/main/java/apipassenger/service/verificationcode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/target/api-passenger-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/target/api-passenger-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/target/classes/apipassenger/apipassengerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/target/classes/apipassenger/apipassengerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/target/classes/apipassenger/controller/VerificationCodecontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/target/classes/apipassenger/controller/VerificationCodecontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-passenger/target/classes/apipassenger/service/verificationcode.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-passenger/target/classes/apipassenger/service/verificationcode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-verificationcode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-verificationcode/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -55,10 +77,14 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api-passenger/src/main/java/apipassenger" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../自学/thecarproject/code/online-taxi-2022-public-master" />
+    <property name="settings.editor.selected.configurable" value="reactor" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -68,7 +94,20 @@
       <recent name="F:\Mycarproject\api-passenger\src\main\java\apipassenger" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServiceVerificationcodeApplication (1)">
+  <component name="RunManager" selected="Spring Boot.apipassengerApplication (1)">
+    <configuration name="Numbercodecontroller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.serviceverificationcode.controller.Numbercodecontroller" />
+      <module name="service-verificationcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.serviceverificationcode.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceVerificationcodeApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-verificationcode" />
       <extension name="coverage">
@@ -117,8 +156,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ServiceVerificationcodeApplication (1)" />
         <item itemvalue="Spring Boot.apipassengerApplication (1)" />
+        <item itemvalue="Spring Boot.ServiceVerificationcodeApplication (1)" />
+        <item itemvalue="Application.Numbercodecontroller" />
         <item itemvalue="Spring Boot.apipassengerApplication" />
       </list>
     </recent_temporary>
@@ -139,7 +179,11 @@
       <workItem from="1676281535959" duration="28000" />
       <workItem from="1676281829804" duration="155000" />
       <workItem from="1676281993375" duration="177000" />
-      <workItem from="1676362521904" duration="2343000" />
+      <workItem from="1676362521904" duration="6441000" />
+      <workItem from="1676445017586" duration="3403000" />
+      <workItem from="1676448536024" duration="4858000" />
+      <workItem from="1677040583865" duration="4685000" />
+      <workItem from="1677650659775" duration="5245000" />
     </task>
     <servers />
   </component>
@@ -147,77 +191,107 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="699" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1676279834268">
+    <state x="699" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1676446612047">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="699" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1676279834268" />
+    <state x="699" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1676446612047" />
     <state x="818" y="518" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1676279649899">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="818" y="518" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1676279649899" />
-    <state x="444" y="214" width="440" height="501" key="FileChooserDialogImpl" timestamp="1676020161329">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="1010" y="442" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1677655050123">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state x="444" y="214" width="440" height="501" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1676020161329" />
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1676364576368">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="1010" y="442" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677655050123" />
+    <state x="829" y="515" width="440" height="501" key="FileChooserDialogImpl" timestamp="1677654333742">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676364576368" />
-    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1676364576368">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state x="829" y="515" key="FileChooserDialogImpl/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677654333742" />
+    <state x="444" y="214" width="440" height="501" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1676448931845" />
+    <state width="2517" height="550" key="GridCell.Tab.0.bottom" timestamp="1677655449686">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676364576368" />
-    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1676364576368">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="550" key="GridCell.Tab.0.bottom/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677655449686" />
+    <state width="1877" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1677047371169" />
+    <state width="2517" height="550" key="GridCell.Tab.0.center" timestamp="1677655449686">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676364576368" />
-    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1676364576368">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="550" key="GridCell.Tab.0.center/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677655449686" />
+    <state width="1877" height="379" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1677047371169" />
+    <state width="2517" height="550" key="GridCell.Tab.0.left" timestamp="1677655449686">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676364576368" />
-    <state width="1877" height="275" key="GridCell.Tab.1.bottom" timestamp="1676364576368">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="550" key="GridCell.Tab.0.left/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677655449686" />
+    <state width="1877" height="379" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1677047371169" />
+    <state width="2517" height="550" key="GridCell.Tab.0.right" timestamp="1677655449686">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676364576368" />
-    <state width="1877" height="275" key="GridCell.Tab.1.center" timestamp="1676364576368">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="550" key="GridCell.Tab.0.right/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677655449686" />
+    <state width="1877" height="379" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1677047371169" />
+    <state width="2517" height="550" key="GridCell.Tab.1.bottom" timestamp="1677655449686">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676364576368" />
-    <state width="1877" height="275" key="GridCell.Tab.1.left" timestamp="1676364576368">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="550" key="GridCell.Tab.1.bottom/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677655449686" />
+    <state width="1877" height="379" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1677047371169" />
+    <state width="2517" height="550" key="GridCell.Tab.1.center" timestamp="1677655449686">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676364576368" />
-    <state width="1877" height="275" key="GridCell.Tab.1.right" timestamp="1676364576368">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="550" key="GridCell.Tab.1.center/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677655449686" />
+    <state width="1877" height="379" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1677047371169" />
+    <state width="2517" height="550" key="GridCell.Tab.1.left" timestamp="1677655449686">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="1877" height="275" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676364576368" />
-    <state width="914" height="332" key="GridCell.Tab.2.bottom" timestamp="1676363925650">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="550" key="GridCell.Tab.1.left/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677655449686" />
+    <state width="1877" height="379" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1677047371169" />
+    <state width="2517" height="550" key="GridCell.Tab.1.right" timestamp="1677655449686">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676363925650" />
-    <state width="914" height="332" key="GridCell.Tab.2.center" timestamp="1676363925650">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="550" key="GridCell.Tab.1.right/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677655449686" />
+    <state width="1877" height="379" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1677047371169" />
+    <state width="2517" height="344" key="GridCell.Tab.2.bottom" timestamp="1677654095522">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676363925650" />
-    <state width="914" height="332" key="GridCell.Tab.2.left" timestamp="1676363925650">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="344" key="GridCell.Tab.2.bottom/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677654095522" />
+    <state width="914" height="332" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1676371329733" />
+    <state width="2517" height="344" key="GridCell.Tab.2.center" timestamp="1677654095522">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676363925650" />
-    <state width="914" height="332" key="GridCell.Tab.2.right" timestamp="1676363925650">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="344" key="GridCell.Tab.2.center/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677654095522" />
+    <state width="914" height="332" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1676371329733" />
+    <state width="2517" height="344" key="GridCell.Tab.2.left" timestamp="1677654095522">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state width="914" height="332" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676363925650" />
-    <state x="825" y="218" key="SettingsEditor" timestamp="1676281985175">
-      <screen x="0" y="0" width="1920" height="1032" />
+    <state width="2517" height="344" key="GridCell.Tab.2.left/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677654095522" />
+    <state width="914" height="332" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1676371329733" />
+    <state width="2517" height="344" key="GridCell.Tab.2.right" timestamp="1677654095522">
+      <screen x="0" y="0" width="2560" height="1392" />
     </state>
-    <state x="825" y="218" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1676281985175" />
+    <state width="2517" height="344" key="GridCell.Tab.2.right/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677654095522" />
+    <state width="914" height="332" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1676371329733" />
+    <state x="810" y="351" key="Maven.ArtifactSearchDialog" timestamp="1677653457692">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state x="810" y="351" key="Maven.ArtifactSearchDialog/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677653457692" />
+    <state x="-5" y="224" width="998" height="713" key="SettingsEditor" timestamp="1677652414454">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state x="-5" y="224" key="SettingsEditor/-2560.0.2048.1242/0.0.2560.1392@0.0.2560.1392" timestamp="1677652414454" />
+    <state x="-4" y="166" width="998" height="713" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1677042639084" />
     <state x="857" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1676278989701">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="857" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032@0.0.1920.1032" timestamp="1676278989701" />
-    <state x="567" y="279" width="1251" height="605" key="new project wizard" timestamp="1676365027300">
+    <state width="600" height="424" key="javadoc.popup" timestamp="1677043355385">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="567" y="279" width="1251" height="605" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1676365027300" />
+    <state width="600" height="424" key="javadoc.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1677043355385" />
+    <state x="341" y="187" width="1251" height="605" key="new project wizard" timestamp="1676445783884">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="341" y="187" width="1251" height="605" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1676445783884" />
+    <state x="511" y="249" key="run.anything.popup" timestamp="1676451235811">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="511" y="249" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1676451235811" />
   </component>
 </project>

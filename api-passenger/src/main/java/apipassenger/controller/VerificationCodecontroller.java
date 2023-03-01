@@ -3,6 +3,7 @@ package apipassenger.controller;
 import apipassenger.request.verificationcodedto;
 import apipassenger.service.verificationcode;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,12 +15,14 @@ import org.springframework.web.bind.annotation.RestController;
  * @ version: 1.0
  */
 @RestController
+@EnableFeignClients
 public class VerificationCodecontroller {
     @Autowired
     private verificationcode verificationcode;
 
     @GetMapping("/verification-code")
     public String verificationCode(@RequestBody verificationcodedto verificationcodedto){
+
         String phonenum = verificationcodedto.getPassengerPhone();
         System.out.println("手机号码为："+phonenum);
         return verificationcode.verificationcode(phonenum);
